@@ -1,0 +1,43 @@
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {{ .Hugo.Generator }}
+  {{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
+  {{ with .Site.Params.role }}<meta name="description" content="{{ . }}">{{ end }}
+  <title>{{ .Site.Title }}</title>
+	<link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon.png">
+	<link rel="icon" type="image/png" href="{{ "img/favicon.png" | relURL }}">
+
+	<!--     Fonts and icons     -->
+  <!-- -->
+  <link href="https://fonts.googleapis.com/css?family=Carter+One|Lato|Patua+One|Roboto|Inconsolata" rel="stylesheet" type="text/css"/>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
+  <!-- -->
+  <!--
+    <link href="https://fonts.googleapis.com/css?family=Carter+One|Lato|Inconsolata" rel="stylesheet">
+  -->
+  <!--
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  -->
+  <link rel="stylesheet" href="https://cdn.rawgit.com/gaborcsardi/r-font/master/rlogo.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.2/css/academicons.min.css">
+  {{ if .Site.Params.fontAwesomePro -}}
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.4.1/css/all.css" {{ printf "integrity=%q" .Site.Params.fontAwesomePro | safeHTMLAttr }} crossorigin="anonymous">
+  {{- else -}}
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+  {{- end }}
+
+  	<!-- CSS Files -->
+    <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="/css/local.css">
+
+  {{ range .Site.Params.custom_css }}
+  <link rel="stylesheet" href="{{ "/css/" | relURL }}{{ . }}">
+  {{ end }}
+
+  <link rel="alternate" href="{{ .RSSLink | default .Site.RSSLink  }}" type="application/rss+xml" title="{{ .Site.Title }}">
+  <link rel="feed" href="{{ .RSSLink | default .Site.RSSLink }}" type="application/rss+xml" title="{{ .Site.Title }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+</head>

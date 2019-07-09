@@ -1,0 +1,49 @@
+{{ define "body" }}
+<body style="background-image:url({{ .Site.Params.background | relURL }});background-size:{{ .Site.Params.backgroundSize | safeCSS  }};background-repeat:{{ .Site.Params.backgroundRepeat | safeCSS }};background-color:{{ .Site.Params.backgroundColor | safeCSS }};background-blend-mode:{{ .Site.Params.backgroundBlendMode | safeCSS }}">
+  <div class="grid-y medium-grid-frame">
+    {{ partial "topbar.html" . }}
+    <div class="grid-x medium-auto medium-cell-block-container">
+      <div class="grid-container small-12 fill-y medium-cell-block-y">
+        <div class="grid-y fill-y grid-margin-y">
+          <div class="cell auto show-for-medium">
+          </div>
+          <div class="grid-x grid-padding-x grid-padding-y shrink scrollable-content medium-cell-block-container" style="background-color:hsla(0, 0%, 100%, 0.9);">
+            <div class="cell" style="height:calc(100vh - 5rem);">
+    		  	  <h2 class="title text-center">{{ .Title }}</h2>
+		    	    {{- if isset .Params "lab_number" -}}
+		    	      <h3 class="title text-center">Lab #{{ .Params.lab_number }} on {{ dateFormat "Mon., Jan 2" .Params.lab_date }}</h3>
+		    	    {{ end -}}
+		  	      {{- if isset .Params "report_due_date" }}
+    		  	    <h3 class="text-center">Lab report due {{ dateFormat "Mon., Jan 2" .Params.report_due_date }}</h3>
+              {{ end -}}
+		  	      {{- if isset .Params "presentation_date" }}
+    		  	    <h3 class="text-center">Presentation in lab on {{ dateFormat "Mon., Jan 2" .Params.presentation_date }}</h3>
+              {{ end -}}
+              {{ .Content }}
+              {{- if (or .PrevInSection .NextInSection) }}
+                <div class="grid-x grid-padding-x align-top">
+                  <div class="cell small-6">
+                    <span class="text-left">
+	                  {{- if .PrevInSection }}
+                      <a href="{{.PrevInSection.URL}}"><i class="material-icons">arrow_back</i> Prev: Lab #{{.PrevInSection.Params.lab_number}} "{{.PrevInSection.Title}}"</a>
+                    {{ end -}}
+                    </span>
+                  </div>
+                  <div class="cell small-6">
+                    <span class="text-right">
+                    {{- if .NextInSection }}
+                      <a href="{{.NextInSection.URL}}">Next: Lab #{{.NextInSection.Params.lab_number}} "{{.NextInSection.Title}}" <i class="material-icons">arrow_forward</i></a>
+	                  {{ end -}}
+                    </span>
+                  </div>
+      	        </div>
+	            {{ end -}}
+	          </div>
+          </div>
+	      </div>
+      </div>
+		</div>
+    {{ partial "footer" . }}
+	</div>
+</body>
+{{ end }}
