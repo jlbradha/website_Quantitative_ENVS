@@ -1,0 +1,107 @@
+baseurl = "/"
+languageCode = "en-us"
+defaultContentLanguage = "en-us"
+title = "Quantitative Methods in Environmental Science and Studies"
+theme = "hugo-syllabus"
+enableRobotsTXT = true
+#googleAnalytics = ""
+paginate = 10
+relativeurls = true
+#publishDir = "public"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$", "_scripts$", "_data$", "\\.gitkeep"]
+
+
+
+[blackfriday]
+  smartypangs = true
+  latexDashes = true
+  smartDashes = true
+  hrefTargetBlank = true
+  angledQuotes = false
+  fractions = false
+
+
+[permalinks]
+post = "/:year/:month/:slug/"
+reading = "/reading/:slug/"
+assignment = "/assignment/:slug/"
+lab = "/lab/:slug/"
+
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  archive = "archives"
+
+
+[author]
+name = "Jennifer Bradham"
+bio = ""
+job = "Assistant Professor"
+location = "Wofford College"
+gravatarEmail = "jenbradham@vanderbilt.edu"
+homepage = "www.jenbradham.com"
+
+
+[[menu.main]]
+weight = 1
+identifier = "Home"
+name = "Home"
+pre = "<i class=\"sidebar-button-icon fa fa-lg fa-home\"></i>"
+url = "/"
+
+
+[params]
+profname = "Jennifer Bradham"
+dateFormat = "July 8, 2019"
+background = "img/PETAR.jpg"
+backgroundCredit = "PETAR (Atlantic Forest of Brazil), photo by Jennifer Bradham"
+math = "true"
+backgroundColor = "white"
+backgroundSize = "cover"
+backgroundBlendMode = "multiply"
+backgroundRepeat = "repeat-y"
+shortCourseName = "ENVS 240"
+fullCourseName = "ENVS 240 Quantitative Environmental Methods and Models"
+semester = "Spring 2019"
+courseCatalogEntry = "Catalog Description: Students will develop quantitative and environmental literacy by analyzing real-world environmental situations and problems with the use of mathematics and statistics. Students will learn how to use dynamic systems models and geographical information systems to gain insight into natural and social processes relevant to environmental issues and policy decisions. Prerequisites include: ENVS 101 with a minimum grade of D and MATH 181 with a minimum grade of D."
+fontAwesomePro = "sha384-POYwD7xcktv3gUeZO5s/9nUbRJG/WOmV6jfEGikMJu77LGYO8Rfs2X7URG822aum"
+
+
+
+[[menu.main]]
+weight = 2
+identifier = "Overview"
+name = "Overview"
+pre = "<i class=\"fa fa-globe\"></i>"
+url = "/Overview/"
+
+[[menu.main]]
+weight = 3
+identifier = "Schedule"
+name = "Schedule"
+pre = "<i class=\"material-icons\">date_range</i>"
+url = "/Schedule/"
+
+[[menu.main]]
+weight = 4
+identifier = "Policies"
+name = "Policies"
+pre = "<i class=\"material-icons\">gavel</i>"
+url = "/Policies/"
+
+[[menu.main]]
+weight = 5
+identifier = "Resources"
+name = "Resources"
+pre = "<i class=\"material-icons\">library_books</i>"
+url = "/Resources/"
+
+
+[outputs]
+home = ["HTML", "CSS", "RSS"]
+section = ["HTML", "RSS"]
+taxonomy = ["HTML", "RSS"]
+taxonomyTerm = ["HTML", "RSS"]
+
+
