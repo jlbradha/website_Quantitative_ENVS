@@ -1,5 +1,5 @@
 ---
-title: Overview
+title: Course Description and Logistics
 author: ''
 date: '2019-07-08'
 slug: Overview
@@ -7,21 +7,24 @@ categories: []
 tags: []
 ---
 
-# Course Description and Logistics
+# **Course Description and Logistics**
 
 ## Basic Information
 
-Professor: Dr. Jennifer Bradham
+#### Professor
+[Dr. Jennifer Bradham](www.jenbradham.com)
 
-Email: insert email address
+**Email**: jennifer.l.bradham@vanderbilt.edu
 
-Office: insert office location
+**Office**: insert office location
 
-Office Hours: insert office hours
+**Office Hours**: insert office hours
 
-Class Meetings: MWF 11:00-12:00 in ENVS room ...
+#### Course Schedule
+**Class Meetings**: MWF 11:00-12:00 in ENVS room ...
 
-Lab: Wednesday 1:00-4:00 in ENVS room...
+**Lab: Wednesday** 1:00-4:00 in ENVS room...
+
 
 
 ## Course Overview
