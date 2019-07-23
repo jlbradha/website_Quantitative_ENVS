@@ -1,248 +1,164 @@
 lessons:
-- date: '2020-02-03'
+- date: '2020-02-04'
   title: Introduction
   lecture: /Slides/Class_01
 
-- date: '2020-02-05'
+- date: '2020-02-06'
   title: What is Climate Change?
   reading: /reading/reading_02
   lecture: /Slides/Class_02
 
-- date: '2020-02-07'
+- date: '2020-02-11'
   title: Energy Balance and Climate
   reading: /reading/reading_03
   lecture: /Slides/Class_03/energy_balance.pptx
   lab: lab_01_assignment
 
-- date: '2020-02-10'
+- date: '2020-02-13'
   title: 
   reading: 
   lecture: 
   lab:
 
-- date: '2020-02-12'
+- date: '2020-02-18'
   title: 
   reading: 
   lecture: 
   lab:
 
-- date: '2020-02-14'
+- date: '2020-02-20'
   title: 
   reading: 
   lecture: 
   lab:
 
-- date: '2020-02-17'
+- date: '2020-02-25'
   title: 
   reading: 
   lecture: 
   lab:
 
-- date: '2020-02-19'
+- date: '2020-02-27'
   title: 
   reading: 
   lecture: 
   lab:
 
-- date: '2020-02-21'
+- date: '2020-03-03'
   title: 
   reading: 
   lecture: 
   lab:
 
-- date: '2020-02-24'
+- date: '2020-03-05'
   title: 
   reading: 
   lecture: 
   lab:
 
-- date: '2020-02-26'
+- date: '2020-03-10'
   title: 
   reading: 
   lecture: 
   lab:
 
-- date: '2020-02-28'
+- date: '2020-03-12'
   title: 
   reading: 
   lecture: 
   lab:
 
-- date: '2020-03-02'
+- date: '2020-03-17'
   title: 
   reading: 
   lecture: 
   lab:
 
-- date: '2020-03-04'
+- date: '2020-03-19'
   title: 
   reading: 
   lecture: 
   lab:
 
-- date: '2020-03-06'
+- date: '2020-03-24'
   title: 
   reading: 
   lecture: 
   lab:
 
-- date: '2020-03-09'
+- date: '2020-03-26'
   title: 
   reading: 
   lecture: 
   lab:
 
-- date: '2020-03-11'
-  title: 
-  reading: 
-  lecture: 
-  lab:
-
-- date: '2020-03-13'
-  title: 
-  reading: 
-  lecture: 
-  lab:
-
-- date: '2020-03-16'
-  title: 
-  reading: 
-  lecture: 
-  lab:
-
-- date: '2020-03-18'
-  title: 
-  reading: 
-  lecture: 
-  lab:
-
-- date: '2020-03-20'
-  title: 
-  reading: 
-  lecture: 
-  lab:
-
-- date: '2020-03-23'
-  title: 
-  reading: 
-  lecture: 
-  lab:
-
-- date: '2020-03-25'
-  title: 
-  reading: 
-  lecture: 
-  lab:
-
-- date: '2020-03-27'
-  title: 
-  reading: 
-  lecture: 
-  lab:
-
-- date: '2020-03-30'
+- date: '2020-03-31'
   title: NO CLASS - SPRING BREAK!
   reading: 
   lecture: 
   lab:
 
-- date: '2020-04-01'
+- date: '2020-04-02'
   title: NO CLASS - SPRING BREAK!
   reading: 
   lecture: 
   lab:
 
-- date: '2020-04-03'
-  title: NO CLASS - SPRING BREAK!
-  reading: 
-  lecture: 
-  lab:
-
-- date: '2020-04-06'
+- date: '2020-04-07'
   title: 
   reading: 
   lecture: 
   lab:
 
-- date: '2020-04-08'
+- date: '2020-04-09'
   title: 
   reading: 
   lecture: 
   lab:
 
-- date: '2020-04-10'
+- date: '2020-04-14'
   title: 
   reading: 
   lecture: 
   lab:
 
-- date: '2020-04-13'
+- date: '2020-04-16'
   title: 
   reading: 
   lecture: 
   lab:
 
-- date: '2020-04-15'
+- date: '2020-04-21'
   title: 
   reading: 
   lecture: 
   lab:
 
-- date: '2020-04-17'
+- date: '2020-04-23'
   title: 
   reading: 
   lecture: 
   lab:
 
-- date: '2020-04-20'
+- date: '2020-04-28'
   title: 
   reading: 
   lecture: 
   lab:
 
-- date: '2020-04-22'
+- date: '2020-04-30'
   title: 
   reading: 
   lecture: 
   lab:
 
-- date: '2020-04-24'
+- date: '2020-05-05'
   title: 
   reading: 
   lecture: 
   lab:
 
-- date: '2020-04-27'
-  title: 
-  reading: 
-  lecture: 
-  lab:
-
-- date: '2020-04-29'
-  title: 
-  reading: 
-  lecture: 
-  lab:
-
-- date: '2020-05-01'
-  title: 
-  reading: 
-  lecture: 
-  lab:
-
-- date: '2020-05-04'
-  title: 
-  reading: 
-  lecture: 
-  lab:
-
-- date: '2020-05-06'
-  title: 
-  reading: 
-  lecture: 
-  lab:
-
-- date: '2020-05-08'
+- date: '2020-05-07'
   title: 
   reading: 
   lecture: 
